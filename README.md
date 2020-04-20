@@ -7,8 +7,8 @@ A GitHub Action for building docker image.
 In your actions workflow, insert this:
 
 ```bash
-- name: Build, Push and Deploy service to Google Cloud Run
-  uses: tstxni97/action-build-cloud-run@1.1
+- name: Build, Push service to Google Cloud Run
+  uses: tstxni97/action-build-cloud-run@1.0
   with:
     image: [your-hostname]/[your-project]/[image]
     service: [your-service]
