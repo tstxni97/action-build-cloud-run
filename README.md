@@ -1,6 +1,6 @@
 # Github Action for Google Cloud Run
 
-A GitHub Action for building docker image and deploying revisions to Google Cloud Run.
+A GitHub Action for building docker image.
 
 ## Usage
 
@@ -8,7 +8,7 @@ In your actions workflow, insert this:
 
 ```bash
 - name: Build, Push and Deploy service to Google Cloud Run
-  uses: ThomFree/action-build-cloud-run@1.1
+  uses: tstxni97/action-build-cloud-run@1.1
   with:
     image: [your-hostname]/[your-project]/[image]
     service: [your-service]
