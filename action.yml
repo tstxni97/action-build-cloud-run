@@ -8,9 +8,6 @@ inputs:
   image:
     description: 'Name of the docker image formatted as follow: [your-hostname]/[your-project]/[image]'
     required: true
-  service:
-    description: 'Name of the service in Cloud Run'
-    required: true
   project:
     description: 'GCP project'
     required: true
